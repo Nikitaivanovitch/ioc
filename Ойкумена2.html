@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="Ойкумена2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Ойкумена</title>
+  </head>
+<script type="text/javascript"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+  $(document).ready(function(){
+$('.dg,.f,.dg_down').hover(function(){
+    $('.f').show();
+   $('.dg').css({"background":" url( graff6.png)"});
+        });
+
+      $('.dg,.f,.dg_down').mouseout(function(){
+          $(".dg").css({"background":"url(graff5.png)"});
+     $('.f').hide();
+       $('.dg').css({"background":" url(graff5.PNG)"});
+    $('.dg').css({"transition":" 1s all"});
+     });
+
+
+
+
+
+
+   $('.dg2,.f2,.dg2_down').hover(function(){
+ //    $(".f").show();//открывает и закрывает toggle
+   //     $("#dg").css({"background":"url(graff6.png)"});
+   $('.f2').show();
+   $('.dg2').css({"background":" url(PICHE2.PNG)"});
+      $('.dg2').css({"transition":" 1s all"});
+       });
+      $('.dg2,.f2,.dg2_down').mouseout(function(){
+   //       $("#dg").css({"background":"url(graff5.png)"});
+   $('.f2').hide();
+     $('.dg2').css({"background":" url(piche.PNG)"});
+    $('.dg2').css({"transition":" 0s all"});
+    });
+
+
+
+   $('.dg3,.f3,.dg3_down').hover(function(){
+   $('.f3').show();
+  $('.dg3').css({"background":" url( piche_down1.png)"});
+   $('.dg3').css({"transition":" 1s all"});
+
+       });
+      $('.dg3,.f3,.dg3_down').mouseout(function(){
+   //       $("#dg").css({"background":"url(graff5.png)"});
+   $('.f3').hide();
+     $('.dg3').css({"background":" url(PICHE3.PNG )"});
+        $('.dg3').css({"transition":" 0s all"});
+    });
+   })
+  </script>
+<body>
+  <main>
+    <div class="contener">
+    <img src="logo.png" class="logo" alt="">
+  <div class="contener1">  
+<a class="log"href="#">О компании</a>
+<a class="log" href="#">Жилая недвижимость</a>
+<a  class="log"href="#">Коммерчиская недвижимость</a>
+<a class="log" href="#">Реализование</a>
+<a class="log" href="#">Гос.заказы</a>
+<img class="lo" src="metro.png" alt="">
+<a class="log" href="#">Метро</a>
+  </div>
+         </div>
+         <hr>
+   <div class="contener2"> 
+<div class="wraper">
+
+  <input type="checkbox" id="memu1">
+  <label class="labell" for="memu1"><p class="pp">меню</p></label>
+
+             <!--  <div class="burge_line first"></div>
+              <div class="burge_line second"></div>
+              <div class="burge_line thirst"></div>
+              <div class="burge_line fourth"></div> -->
+      <nav class="mine_memu">
+              <a href="#" class="aa">О компании</a>
+              <a href="#"class="aa">Жилая недвижимость</a>
+              <a href="#"class="aa">Коммерчиская недвижимость</a>
+              <a href="#"class="aa">Реализование</a>
+              <a href="#"class="aa">Гос.заказы</a>
+             <a class="aa" href="#">Метро</a>
+        </nav>
+
+</div>
+  </div>
+<!-- //////////////////////////////////////////////////////////// -->
+<!-- 
+ <div class="down_contener">
+      </div> -->
+<!--  <div class="graheate"> 
+    <img id="cq" class="dg" src="graff4.png" alt="">  --> 
+    <div class="dg">
+   <div class="dg_down"></div>
+   <div class="f">
+     ЖК ГРАФФИТИ
+     <br>
+       Санкт-Петербург
+
+       <p>В приморском районе вдали от шумных магистралей
+       и в окружении крупных природоохранных зон:
+       знаменитого заповедника "Юнтоловская лесная дача" и Новоорловского лесопарка</p>
+
+   </div>
+   </div>
+   <div class="dg2"></div>
+<div class="dg2_down"></div>
+<div class="f2">
+  ЖК ГРАФФИТИ
+  <br>
+    Санкт-Петербург
+  <p>В приморском районе вдали от шумных магистралей
+  и в окружении крупных природоохранных зон:
+  знаменитого заповедника "Юнтоловская лесная дача" и Новоорловского лесопарка</p>
+
+</div>
+    </div>
+
+
+
+
+
+
+    <div class="dg3"></div>
+ <div class="dg3_down"></div>
+ <div class="f3">
+   ЖК ГРАФФИТИ
+   <br>
+     Санкт-Петербург
+   <p>В приморском районе вдали от шумных магистралей
+   и в окружении крупных природоохранных зон:
+   знаменитого заповедника "Юнтоловская лесная дача" и Новоорловского лесопарка</p>
+
+ </div>
+     </div>
+<button class="bat">Все проекты</button>
+
+</main>
+  </body>
+</html>

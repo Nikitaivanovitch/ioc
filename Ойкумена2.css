@@ -1,0 +1,638 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;  /* по желанию */
+}
+
+/*@media (min-width: 0px)  and (max-width: 450px) {
+.logo{
+text-align: center;
+width: 10px;
+/* font-weight: bold; 
+}
+/*.contener
+
+	text-align: center;
+	width: 100px;
+}
+}*/
+
+
+#mai{
+	margin: 0 auto;
+	float: left;
+}
+
+
+.logo{
+text-align: center;
+ padding-top: 15px;
+
+}
+.lo{
+	position: relative;
+	top: 5px;
+	left: 2px;
+	
+
+
+}
+.log{
+text-align: center;
+padding-top: 20px;
+ text-decoration: none;
+ color: #000;
+}
+.contener{
+	margin:0 auto;
+	width: 100%;
+	height: 100%;
+ background:#fff;
+ 
+position: relative;
+left: 0px;
+
+
+
+ margin: 0px auto;
+	width: 100%;
+	height: 100%;
+	
+	position: relative;
+	color: red;
+	text-align: center;
+	font-family: 'Arial';
+
+
+
+	min-height: 80px;
+}
+ .down_contener{
+	 margin-top: 0 auto;
+	border-bottom: 2px solid rgba(955,955,955,.8);
+	background: grey;
+}
+
+.graheate{
+	position: relative;
+	padding-top: 20px;
+
+}
+/* /#cq{
+position: relative;
+left: 100px;
+}
+/.dg:hover{
+	position: relative;
+	background: graff.png;
+	width: 350px;
+	height: 350px;  */
+
+}
+.as{
+	position: absolute;
+	width: 750px;
+	height: 350px;
+	background: #FF4500;
+/* font-family: "Arial"; */
+}
+
+/*.dg{
+	display: block;
+	/* left: 100px; 
+	position: relative;
+	 background: url(graff1.png);
+	width: 350px;
+	height: 350px ;
+}
+.f{
+display: none;
+	position:absolute;
+	 left:0px; 
+		width: 350px;
+		height: 170px;
+		background: #FF4500;
+		top:200px;
+
+}
+.dgf{
+	background: url(f.png);
+ width: 350px;
+ height: 100px;
+}
+.dg:hover{
+	display: block;
+	/* left: 100px; 
+	position: relative;
+	background: url(graff6.png);
+	width: 350px;
+	height: 350px ;
+	ax-height: 0;
+ font-size: 0;
+ overflow: hidden;  /* чтобы дети не вылезали за рамки родителей  
+
+ transition: 0.01s all;
+
+}
+
+.up:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+
+
+}
+
+.up{ display: inline-block; }
+/* start commented backslash hack \*/
+* html.up { height: 1%; }
+.up{ display: block; }
+/* close commented backslash hack 
+.up{
+	background: red;
+	width: 350px;
+	height: 350px;
+	position: relative;
+	display: block;
+	left: 100px;
+top: 80px;
+
+}
+*/
+.dg{
+		top: 160px;
+	padding-top: 0;
+	display: block;
+	left: 80px;
+	position: absolute;
+ background: url(graff5.png);
+ width: 350px;
+	height: 250px;
+	
+}
+.dg_down{
+	 display: block;
+	/* left: 100px; */
+	position: absolute;
+	background: url(piche_down.png);
+	width: 350px;
+	height: 70px ;
+top: 240px;
+ left: 0px;
+ padding-top:  0;
+ overflow: hidden;
+}
+.f{
+		display: none;
+		position:absolute;
+		 left:0px;
+			width: 350px;
+			height: 140px;
+			background: #FF4500;
+			top:170px;
+				transition: 0.2s all;
+}
+.dg2{
+	top: 160px;
+	padding-top: 0;
+	display: block;
+	left: 510px;
+	position: absolute;
+	background: url(piche.png);
+	width: 350px;
+	height: 250px;
+}
+.dg2:hover{
+display: block;
+position: absolute;
+	background: url(PICHE2.PNG);
+	width: 350px;
+	height: 175px;
+}
+.dg2_down{
+	display: block;
+	/* left: 100px; */
+	position: absolute;
+	background: url(piche_down.png);
+	width: 350px;
+	height: 70px ;
+top: 400px;
+ left: 510px;
+ padding-top:  0;
+ overflow: hidden;
+}
+.f2{
+	display: none;
+		position:absolute;
+		 left:510px;
+			width: 350px;
+			height: 140px;
+			background: #FF4500;
+			top:330px;
+				transition: 0.2s all;
+}
+
+
+
+
+.dg3{
+	top: 160px;
+	padding-top: 0;
+	display: block;
+	left: 940px;
+	position: absolute;
+	background: url(piche3.png);
+	width: 350px;
+	height: 250px ;
+}
+.dg3:hover{
+display: block;
+position: absolute;
+	background: url(piche_down1.png);
+	width: 350px;
+	height: 175px;
+}
+.dg3_down{
+	display: block;
+	/* left: 100px; */
+	position: absolute;
+	background: url(piche_ddown1.png);
+	width: 350px;
+	height: 70px ;
+top: 400px;
+ left: 940px;
+ padding-top:  0;
+ overflow: hidden;
+	transition: 10ms all;
+	/* max-width: 100%; */
+
+}
+.f3{
+	display: none;
+		position:absolute;
+		 left:940px;
+			width: 350px;
+			height: 140px;
+			background: #FF4500;
+			top:330px;
+}
+.bat{
+	margin:400px auto; 
+	position: initial;
+	display: block;
+	top: 15px;
+	left: 0px;
+	
+	text-align: center;
+	width: 150px;
+	height: 40px ;
+	background: #fff;
+/* border-top: 1px solid rgba( #FF4500); */
+border-width: 2px;
+ /* делает отступ в один пиксиль solid rgba делает цвет пикселей */
+	border-radius: 3px;
+	 border-color:  #FF4500;
+	 border-style: solid;
+
+	 /* max-width: 100%; */
+
+}
+.bat:hover{
+	background:  rgba(255, 192, 203,.3);
+}
+
+
+/* ***************      стили      ************* */
+html, body{
+	overflow-x: hidden;
+}
+
+.wraper{
+ 
+	margin:0px auto;
+	width: 100px;
+	height: 30px;
+	background: #fff;
+	position: relative;
+ border-right: 15px;
+	color: red;
+	text-align: center;
+	font-family: 'Arial';
+	border: 1px;
+border-radius: 10px solid grey;
+}
+
+#memu1{
+	display: none;
+
+}
+.labell{
+	font-size: 20px; /* размер текста */
+	display: block;
+	position: absolute;
+	top: 0;
+	 left: 15px;/* что нет отступов с лева */
+	height: 30px;
+	width:70px;
+	color: purple;
+	z-index: 2px;
+	text-align: center;
+	font-style: initial;
+		border: 1px solid red;
+		background: yellow;
+	border-radius: 15px;
+
+}
+
+
+.burge_line{
+position: absolute;
+top:8px;
+right: 10px;
+width: 35px;
+height: 2px;
+background-color: green;
+}
+.second, .thirst{
+	top: 18px;
+}
+
+.fourth{
+	top: 28px;
+}
+.mine_memu{
+
+	display: block;
+	position: absolute;
+	width: 200px;
+	left: -45px;
+	bottom: -10px;
+	transform:translateY(100%);  /* сдвижение на полностью свою высоту */
+ /* доп * */
+ max-height: 0;
+font-size: 0;
+overflow: hidden;  /* чтобы дети не вылезали за рамки родителей  */
+
+ border: 1px solid red;
+		background: yellow;
+	border-radius: 15px;
+display: none;
+transition: 1s all;
+
+}
+/* .labell:focus {
+transition:2s all;
+width: 20px;
+} */
+
+
+.aa{
+	display:block;
+	width: 100%;
+	padding-top: 10px;
+	color: #000;
+	text-decoration: none;
+border-top: 1px solid grey; /* делает отступ в один пиксиль solid rgba делает цвет пикселей */
+background: #fff;
+
+}
+ #memu1:checked - .mine_memu{
+	max-height: 500px;
+	font-size: 16px;
+} 
+#memu1:checked  ~ .mine_memu{
+max-height: 500px;
+font-size: 16px;
+}
+#memu1:checked  ~ .first{
+	display: none;
+}
+/* #memu1:checked  ~ .second{
+	transform: rotate(45deg);
+}
+#memu1:checked  ~ .thirst{
+	transform: rotate(-45deg);
+}*/
+#memu1:checked  ~ .mine_memu{
+	display: inherit;
+}
+.contener2{
+display: none;
+}
+
+/*////////////////////////////////////////////////*/
+
+hr{
+	margin:0 auto;
+	border-color: grey;
+	position: absolute;
+	top: 80px;
+	width: 100%;
+
+}
+.contener1{
+	background:#fff;
+	overflow-y: hidden; 
+}
+	@media screen and (min-width: 0px) and (max-width: 800px){  
+
+
+
+.contener1{
+	display: none;
+
+}
+.contener2{
+	margin: 230px auto;
+	position: relative;
+	top: -266px;
+	height: 0px;
+	background: #FF4500;
+display:inherit;
+
+}
+
+	}
+
+	 @media screen and (min-width: 1000px) and (max-width: 1100px){  
+		.dg{
+		top: 160px;
+	padding-top: 0;
+	display: block;
+	left: 30px;
+	position: absolute;
+ background: url(graff5.png);
+ width: 300px;
+	height: 200px;
+	
+}
+.dg_down{
+	 display: block;
+	/* left: 100px; */
+	position: absolute;
+	background: url(piche_down.png);
+	width: 300px;
+	height: 70px ;
+top: 200px;
+ left: 0px;
+ padding-top:  0;
+ overflow: hidden;
+}
+.f{
+		display: none;
+		position:absolute;
+		 left:0px;
+			width: 300px;
+			height: 125px;
+			background: #FF4500;
+			top:150px;
+				transition: 0.2s all;
+}
+.dg2{
+	top: 160px;
+	padding-top: 0;
+	display: block;
+	left: 360px;
+	position: absolute;
+	background: url(piche.png);
+	width: 300px;
+	height: 200px;
+}
+.dg2:hover{
+display: block;
+position: absolute;
+	background: url(PICHE2.PNG);
+	width: 300px;
+	height: 175px;
+}
+.dg2_down{
+	display: block;
+	/* left: 100px; */
+	position: absolute;
+	background: url(piche_down.png);
+	width: 300px;
+	height: 70px ;
+top: 360px;
+ left: 360px;
+ padding-top:  0;
+ overflow: hidden;
+}
+.f2{
+	display: none;
+		position:absolute;
+		 left:360px;
+			width: 300px;
+			height: 140px;
+			background: #FF4500;
+			top:300px;
+				transition: 0.2s all;
+}
+.bat{
+margin:400px auto; 
+	position: initial;
+	display: block;
+	top: 15px;
+	left: 200px;
+	
+	text-align: center;
+	width: 150px;
+	height: 40px ;
+	background: #fff;
+/* border-top: 1px solid rgba( #FF4500); */
+border-width: 2px;
+ /* делает отступ в один пиксиль solid rgba делает цвет пикселей */
+	border-radius: 3px;
+	 border-color:  #FF4500;
+	 border-style: solid;
+
+	 /* max-width: 100%; */
+
+}
+.bat:hover{
+	background:  rgba(255, 192, 203,.3);
+}
+
+.dg3{
+	top: 160px;
+	padding-top: 0;
+	display: block;
+	left: 690px;
+	position: absolute;
+	background: url(piche3.png);
+	width: 300px;
+	height: 250px ;
+}
+.dg3:hover{
+display: block;
+position: absolute;
+	background: url(piche_down1.png);
+	width: 300px;
+	height: 175px;
+}
+.dg3_down{
+	display: block;
+	/* left: 100px; */
+	position: absolute;
+	background: url(piche_ddown1.png);
+	width: 300px;
+	height: 70px ;
+top: 360px;
+ left: 690px;
+ padding-top:  0;
+ overflow: hidden;
+	transition: 10ms all;
+	/* max-width: 100%; */
+
+}
+.f3{
+	display: none;
+		position:absolute;
+		 left:690px;
+			width: 300px;
+			height: 140px;
+			background: #FF4500;
+			top:300px;
+
+	 }
+
+
+
+	 @media screen and (min-width: 0px) and (max-width: 556px){ 
+
+		 .dg{
+    top: 160px;
+  padding-top: 0;
+  display: block;
+  left: 80px;
+  position: absolute;
+ background: url(graff5.png);
+ width: 350px;
+  height: 250px;
+  
+}
+.dg_down{
+   display: block;
+  /* left: 100px; */
+  position: absolute;
+  background: url(piche_down.png);
+  width: 350px;
+  height: 70px ;
+top: 240px;
+ left: 0px;
+ padding-top:  0;
+ overflow: hidden;
+}
+.f{
+    display: none;
+    position:absolute;
+     left:0px;
+      width: 350px;
+      height: 140px;
+      background: #FF4500;
+      top:170px;
+        transition: 0.2s all;
+}
+	 }
